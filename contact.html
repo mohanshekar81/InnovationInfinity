@@ -3,30 +3,111 @@
 <head>
   <title>Contact - Innovation Infinity</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Additional CSS styles for the contact page */
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url('context1-background.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      min-height: calc(100% - 140px); /* Subtract header and footer heights */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: transparent; /* Set the background color to transparent */
+      color: #000; /* Set the font color to black */
+    }
+    header {
+      background-color: #000; /* Set header background color to black */
+      color: #fff; /* Set header text color to white */
+      padding: 20px;
+    }
+    header a {
+      color: #fff; /* Set link color to white */
+    }
+    h1 {
+      margin-bottom: 20px;
+      color: #000; /* Set heading text color to black */
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #000; /* Set link color to black */
+      text-decoration: none;
+    }
+    .contact-label {
+      display: inline-block;
+      width: 100px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #000; /* Set footer background color to black */
+      color: #fff; /* Set footer text color to white */
+      padding: 20px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+  </style>
 </head>
 <body>
   <!-- Navigation bar -->
   <header>
-    <!-- Navigation bar code here -->
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="ai-humanity.html">AI & Humanity</a></li>
-          <li><a href="case-studies.html">Case Studies</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul>
+        <li><img src="logo.jpeg" alt="Company Logo" style="height:50px;"></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ai-humanity.html">AI & Humanity</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li style="float:right;">
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        </li>
+      </ul>
+    </nav>
   </header>
 
   <!-- Page content -->
-  <h1>Contact Us</h1>
-  <p>Contact information and contact form</p>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <ul>
+      <li>
+        <span class="contact-label">Email:</span>
+        <a href="mailto:info@innovationinfinity.com">info@innovationinfinity.com</a>
+      </li>
+      <li>
+        <span class="contact-label">Phone:</span>
+        <a href="tel:+1234567890">+1234567890</a>
+      </li>
+      <li>
+        <span class="contact-label">Instagram:</span>
+        <a href="https://www.instagram.com/innovationinfinity/">@innovationinfinity</a>
+      </li>
+      <li>
+        <span class="contact-label">Twitter:</span>
+        <a href="https://twitter.com/innovationinf">Twitter</a>
+      </li>
+    </ul>
+  </div>
 
-  <!-- Footer -->
   <footer>
-    <!-- Footer code here -->
-      <p>&copy; 2023 Innovation Infinity. All rights reserved.</p>
+    <p>&copy; 2023 Innovation Infinity. All rights reserved.</p>
   </footer>
 </body>
 </html>

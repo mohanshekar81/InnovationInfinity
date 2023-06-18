@@ -1,25 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MyItinerary.io/</title>
+  <title>MyItinerary.io</title>
   <!-- Include CSS stylesheets and JavaScript files -->
   <link rel="stylesheet" href="styles.css">
   <script src="app.js"></script>
   <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+  <style>
+    /* CSS for header and footer background images */
+    header {
+      background-image: url("header-background.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    header nav ul li a {
+      color: black; /* Set the font color to black */
+    }
+
+    body {
+      background-image: url("context-background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      margin: 0;
+    }
+
+    section#features {
+      background-image: url("context-background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding: 50px 0;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background-image: url("context-background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+    }
+  </style>
 </head>
 <body>
     <header>
       <nav>
         <ul>
-          <li><img src="innovation-infinity-logo.png" alt="Company Logo" style="height:50px;"></li>
+          <li><img src="logo.jpeg" alt="Company Logo" style="height:50px;"></li>
           <li><a href="index.html">Home</a></li>
           <li><a href="ai-humanity.html">AI & Humanity</a></li>
           <li><a href="case-studies.html">Case Studies</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-            <li style="float:right;">
-                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
-            </li></ul>
+          <li style="float:right;">
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+          </li>
+        </ul>
       </nav>
     </header>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -50,5 +90,6 @@
     <footer>
       <p>&copy; 2023 Innovation Infinity. All rights reserved.</p>
     </footer>
+    
 </body>
 </html>
