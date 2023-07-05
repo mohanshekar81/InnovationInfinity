@@ -1,0 +1,127 @@
+
+element.style {
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 100%;
+    font-family: '__Inter_55486e','__Inter_Fallback_55486e';
+    background: var(--color-system-white);
+    margin: 0;
+    color: var(--color-system-gray-p-4);
+}
+:root {
+    --toastify-toast-width: calc(300px + 8px !important);
+    --toastify-color-light: var(--color-system-gray-p-4)!important;
+    --toastify-font-family: Inter,sans-serif!important;
+    --toastify-toast-min-height: 56px!important;
+}
+:root {
+    --toastify-color-light: #fff;
+    --toastify-color-dark: #121212;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #07bc0c;
+    --toastify-color-warning: #f1c40f;
+    --toastify-color-error: #e74c3c;
+    --toastify-color-transparent: hsla(0,0%,100%,.7);
+    --toastify-icon-color-info: var(--toastify-color-info);
+    --toastify-icon-color-success: var(--toastify-color-success);
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+    --toastify-icon-color-error: var(--toastify-color-error);
+    --toastify-toast-width: 320px;
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 9999;
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: #fff;
+    --toastify-text-color-info: #fff;
+    --toastify-text-color-success: #fff;
+    --toastify-text-color-warning: #fff;
+    --toastify-text-color-error: #fff;
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+    --toastify-color-progress-light: linear-gradient(90deg,#4cd964,#5ac8fa,#007aff,#34aadc,#5856d6,#ff2d55);
+    --toastify-color-progress-dark: #bb86fc;
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+}
+:root {
+    --color-system-white: #fff;
+    --color-system-gray: #777b96;
+    --color-system-gray-p-1: #5d617c;
+    --color-system-gray-p-2: #464a65;
+    --color-system-gray-p-3: #30344f;
+    --color-system-gray-p-4: #090c32;
+    --color-system-gray-m-1: #9398ac;
+    --color-system-gray-m-2: #b5b7c6;
+    --color-system-gray-m-3: #dadae2;
+    --color-system-gray-m-4: #f3f4f6;
+    --color-system-black: #000;
+    --color-system-space-blue: #3881ff;
+    --color-system-space-blue-p-1: #0f5bff;
+    --color-system-space-blue-p-2: #0039e6;
+    --color-system-space-blue-p-3: #1226ab;
+    --color-system-space-blue-p-4: #04126c;
+    --color-system-space-blue-m-1: #6ba4ff;
+    --color-system-space-blue-m-2: #a3c6ff;
+    --color-system-space-blue-m-3: #dbe9ff;
+    --color-system-space-blue-m-4: #f1f6fe;
+    --color-system-space-dark-navy: #090c32;
+    --color-system-green: #39c890;
+    --color-system-green-p-1: #19b879;
+    --color-system-green-p-2: #0ca468;
+    --color-system-green-p-3: #068251;
+    --color-system-green-p-4: #055c3a;
+    --color-system-green-m-1: #5dd3a6;
+    --color-system-green-m-2: #8fddbc;
+    --color-system-green-m-3: #d4f2e4;
+    --color-system-green-m-4: #effbf5;
+    --color-system-dark-green: #003420;
+    --color-system-red: #fc7979;
+    --color-system-red-p-1: #fb5151;
+    --color-system-red-p-2: #f90606;
+    --color-system-red-p-3: #d20000;
+    --color-system-red-p-4: #960000;
+    --color-system-red-m-1: #fc9292;
+    --color-system-red-m-2: #ffb8b8;
+    --color-system-red-m-3: #fddddd;
+    --color-system-red-m-4: #fef1f1;
+    --color-system-dark-red: #6a0000;
+    --color-system-yellow: #ffa10e;
+    --color-system-yellow-p-1: #fe8c17;
+    --color-system-yellow-p-2: #f5770f;
+    --color-system-yellow-p-3: #e75708;
+    --color-system-yellow-p-4: #be4400;
+    --color-system-yellow-m-1: #ffbc50;
+    --color-system-yellow-m-2: #ffd082;
+    --color-system-yellow-m-3: #ffe9c7;
+    --color-system-yellow-m-4: #fff8eb;
+Show All Properties (51 more)
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
